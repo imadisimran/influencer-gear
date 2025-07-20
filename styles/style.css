@@ -111,3 +111,46 @@
 
 /* Font properties finished */
 
+/* Common style */
+
+.primary-color{
+  color: #3A3A3A;
+}
+
+/* Common style finished */
+
+/* Header style started */
+
+header{
+  max-width: 1140px;
+  margin:auto;
+}
+
+/* Nav bar style */
+
+
+.brand-name{
+  font-weight: 700;
+  font-size:1.5rem;
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links{
+  display:flex;
+  gap:34px;
+  list-style: none;
+}
+
+.nav-links li a{
+  text-decoration: none;
+  color: #3A3A3A;
+  font-weight: 600;
+  font-size:1rem;
+}
+
+
+/* Nav bar style finished */
