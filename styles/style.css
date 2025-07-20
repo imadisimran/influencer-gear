@@ -201,11 +201,39 @@ nav{
 /* Companies started */
 
 .companies{
+  /* display: grid;
+  grid-template-columns: repeat(7,1fr);
+  justify-items: center;
+  align-items: center;
+  gap:20px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
   border:1px solid #eeeeee;
   padding:30px 0px;
   margin-top:70px;
   
+}
+
+@media screen and (max-width:576px) {
+  nav,.nav-links{
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .nav-links{
+    padding:0px;
+  }
+  .banner{
+    flex-direction: column-reverse;
+    text-align: center;
+    gap:50px;
+  }
+  .banner-left h1{
+    font-size: 2rem;
+  }
+  .companies{
+    gap:20px;
+  }
 }
