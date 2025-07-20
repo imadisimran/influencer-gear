@@ -117,6 +117,16 @@
   color: #3A3A3A;
 }
 
+.common-btn{
+  color: white;
+  background-color: #E02C6D;
+  padding: 10px 30px;
+  border-radius: 40px;
+  border:none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 /* Common style finished */
 
 /* Header style started */
@@ -154,3 +164,36 @@ nav{
 
 
 /* Nav bar style finished */
+
+
+/* Banner style started */
+#arrow-right{
+  margin-left:10px;
+}
+
+.banner{
+  display: flex;
+  gap:130px;
+}
+
+.banner-left h1{
+  font-size: 3.25rem;
+  margin-bottom: 20px;
+}
+
+.banner-left p{
+  margin-bottom: 20px;
+} 
+
+.banner-right{
+  background-image: url('../influencer-gear/images/Circle\ design.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding:40px;
+}
+
+.banner-right img{
+  width:100%;
+
+}
